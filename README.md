@@ -87,56 +87,71 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `obito2023`                 | Total de óbitos gerais em 2023 |
 | `mediaobt14a23`             | Média de óbitos de 2014 a 2023 por município |
 
+# ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # -----
 
+#### Agrupamento dos tipos CNES por nível de complexidade assistencial  
 
-### Tipos de estabelecimentos de saúde no CNES  
+> **Critério adotado**  
+> O CNES não possui um campo “complexidade” fixo; a distribuição abaixo segue o enquadramento previsto na **PNAB 2017** para Atenção Primária, na **PNAES 2023** para Atenção Especializada e no **Regulamento Técnico da Rede de Urgência (Port. 2048/2002)** para serviços de alta densidade tecnológica, além das definições oficiais da Tabela CNES de Tipos de Estabelecimento【turn1view0】.  
 
-| Código | Tipo de Estabelecimento | Conceito resumido* |
-|--------|------------------------|--------------------|
-| **01** | Posto de Saúde | Unidade básica com equipe de nível médio e presença eventual de médico. |
-| **02** | Centro de Saúde / Unidade Básica | Atenção básica permanente nas especialidades essenciais, podendo ofertar SADT e pronto‑atendimento. |
-| **04** | Policlínica | Atendimento ambulatorial multiprofissional, inclusive SADT e pronto‑atendimento. |
-| **05** | Hospital Geral | Internação e urgência nas especialidades básicas; requer SADT de média complexidade. |
-| **06** | Hospital Especializado | Internação em única especialidade ou área (ex.: oncologia, psiquiatria). |
-| **15** | Unidade Mista | Combina serviços ambulatoriais e leitos de internação de baixa complexidade. |
-| **20** | Pronto‑Socorro Geral | Unidade hospitalar de portas abertas para urgências em clínica geral/cirurgia. |
-| **21** | Pronto‑Socorro Especializado | Urgência focada em uma especialidade (ex.: ortopedia, cardiologia). |
-| **22** | Consultório Isolado | Sala isolada de atendimento médico, odontológico ou de outro profissional de saúde. |
-| **32** | Unidade Móvel Fluvial | Barco/navio com consultórios e sala de curativos para áreas ribeirinhas. |
-| **36** | Clínica / Centro de Especialidade | Atendimento ambulatorial em única especialidade (p. ex. CAPS, reabilitação). |
-| **39** | SADT Isolado | Unidade de apoio diagnóstico/terapêutico não vinculada a hospital (lab., imagem, etc.). |
-| **40** | Unidade Móvel Terrestre | Veículo equipado para assistência (inclui unidade odontológica móvel). |
-| **42** | Unidade Móvel Pré‑Hospitalar | Viatura terrestre/aérea/hidro para atendimento de urgência pré‑hospitalar (SAMU). |
-| **43** | Farmácia | Dispensação de medicamentos básicos, excepcionais ou de alto custo. |
-| **50** | Unidade de Vigilância em Saúde | Ações de investigação, prevenção e controle de riscos epidemiológicos/sanitários. |
-| **60** | Cooperativa/Empresa de Cessão | Administração de profissionais cooperados para atuação em saúde. |
-| **61** | Centro de Parto Normal – Isolado | Unidade (intra‑ ou extra‑hospitalar) dedicada ao parto de baixo risco. |
-| **62** | Hospital‑Dia – Isolado | Internação de curta permanência, intermediária entre ambulatório e hospital. |
-| **68** | Central de Gestão em Saúde | Sede administrativa (Secretarias, operadoras, distritos) responsável por planejamento, regulação e logística. |
-| **69** | Centro de Atenção Hemoterápica/Hematológica | Execução do ciclo do sangue (captação, processamento, transfusão). |
-| **70** | Centro de Atenção Psicossocial (CAPS) | Cuidado em saúde mental de média complexidade, substitutivo à internação. |
-| **71** | Centro de Apoio à Saúde da Família (CASF) | Núcleo multiprofissional de retaguarda para as equipes de Saúde da Família. |
-| **72** | Unidade de Atenção à Saúde Indígena | Atenção básica integral em comunidades indígenas (UBSI, CASAI, polo‑base). |
-| **73** | Pronto Atendimento (UPA) | Unidade autônoma 24 h que estabiliza urgências e decide remoção ou alta. |
-| **74** | Polo Academia da Saúde | Espaço comunitário para práticas corporais, educação em saúde e lazer. |
-| **75** | Telessaúde | Núcleo ou ponto de serviços remotos de apoio diagnóstico, educação ou regulação. |
-| **76** | Central de Regulação Médica das Urgências | Coordena os fluxos assistenciais pré‑hospitalares (SAMU 192). |
-| **77** | Serviço de Atenção Domiciliar – Isolado | Home care privado que presta assistência integral no domicílio. |
-| **78** | Unidade de Atenção em Regime Residencial | Acolhimento residencial transitório para usuários de álcool/drogas (Rede RAPS). |
-| **79** | Oficina Ortopédica | Confecciona, adapta e mantém órteses/próteses de locomoção. |
-| **80** | Laboratório de Saúde Pública (LACEN) | Rede pública de laboratórios centrais (federal, estadual ou municipal). |
-| **81** | Central de Regulação do Acesso | Avalia, processa e agenda solicitações de consultas, exames e internações. |
-| **82** | Central de Notificação, Captação e Distribuição de Órgãos (CNCDO) | Coordena a doação e alocação de órgãos/tecidos para transplantes no estado. |
-| **83** | Polo de Prevenção de Doenças e Agravos e Promoção da Saúde | Desenvolve ações de promoção da saúde e prevenção de agravos, individuais ou coletivas. |
+---
 
-\* Conceitos sintetizados a partir dos manuais técnicos do CNES e portarias vigentes. Para requisitos completos (subtipos, habilitações e bases legais) consulte a Ficha 01 de Identificação do CNES e as portarias SAS/MS correspondentes.
+### 1. Atenção Primária à Saúde (APS)  
+| Código | Tipo de Estabelecimento |
+|-------:|-------------------------|
+| 01 | **Posto de Saúde** |
+| 02 | **Centro de Saúde / Unidade Básica** |
+| 22 | Consultório Isolado |
+| 71 | Centro de Apoio à Saúde da Família (NASF/CASF) |
+| 72 | Unidade de Atenção à Saúde Indígena (Polo‑base, UBSI) |
+| 74 | Polo Academia da Saúde |
+| 75 | Telessaúde (núcleo ou ponto) |
+| 32 | Unidade Móvel Fluvial |
+| 40 | Unidade Móvel Terrestre |
+| 43 | Farmácia |
+| 83 | Polo de Prevenção de Doenças, Agravos e Promoção da Saúde |
+| 50 | Unidade de Vigilância em Saúde |  
+**Referências:** PNAB 2017 – Port. 2.436/2017【turn2search0】; Tabela CNES【turn1view0】  
 
-**Fontes principais**
+---
 
-- Manual de Tipos e Subtipos de Estabelecimentos de Saúde – CNES (versão atualizada, mar/ 2025) citeturn5view0turn8view0turn13view0  
-- Instruções de Preenchimento – CNES Ficha 01 (atualização jan/ 2024 e mar/ 2025) citeturn14search3turn19search6turn20search4  
-- Portarias SAS/MS nº 168/2016 (Central de Gestão), nº 530/2014 (CNCDO) e nº 1 482/2016 (Polo de Prevenção) citeturn19search9turn22search1turn21search0  
-- Tabela on‑line “Tipo de Estabelecimento” (cnes2.datasus.gov.br) citeturn20search0turn23search0  
-- FAQs da Wiki CNES sobre nova classificação (2023–2025) citeturn20search3turn21search2
+### 2. Média Complexidade (ambulatorial e hospitalar)  
+| Código | Tipo de Estabelecimento |
+|-------:|-------------------------|
+| 04 | Policlínica |
+| 36 | Clínica / Centro de Especialidade |
+| 39 | Unidade de Apoio Diagnose e Terapia (SADT Isolado) |
+| 15 | Unidade Mista |
+| 62 | Hospital‑Dia – Isolado |
+| 61 | Centro de Parto Normal – Isolado |
+| 73 | Pronto Atendimento (UPA) |
+| 20 | Pronto‑Socorro Geral |
+| 21 | Pronto‑Socorro Especializado |
+| 70 | Centro de Atenção Psicossocial (CAPS I‑III, AD) |
+| 77 | Serviço de Atenção Domiciliar – Isolado (Home Care) |
+| 78 | Unidade de Atenção em Regime Residencial |
+| 79 | Oficina Ortopédica |  
+**Referências:** PNAES 2023 – Port. 1.604/2023【turn4search0】; Port. 1600/2011 – Rede de Urgências【turn5search3】; Tabela CNES【turn1view0】
 
-Essas categorias orientam o cadastramento, a gestão dos serviços e a análise de rede assistencial no SUS.
+---
+
+### 3. Alta Complexidade (alta densidade tecnológica / terciária)  
+| Código | Tipo de Estabelecimento |
+|-------:|-------------------------|
+| 05 | Hospital Geral |
+| 06 | Hospital Especializado |
+| 69 | Centro de Atenção Hemoterápica e / ou Hematológica |
+| 80 | Laboratório Central de Saúde Pública – LACEN |
+| 42 | Unidade Móvel de Nível Pré‑Hospitalar em Urgência (SAMU) |
+| 76 | Central de Regulação Médica das Urgências |
+| 81 | Central de Regulação do Acesso |
+| 82 | Central de Notificação, Captação e Distribuição de Órgãos (CNCDO) |
+| 68 | Central / Secretaria de Gestão em Saúde |  
+**Referências:** Regulamento Técnico de Urgência – Port. 2.048/2002【turn5search0】; Tabela CNES【turn1view0】
+
+---
+
+#### Observações importantes  
+* Alguns estabelecimentos **transversais** (ex.: vigilância, gestão, regulação) não prestam assistência direta; foram alocados segundo o grau de tecnologia e articulação exigido.  
+* A **atribuição de complexidade pode variar** quando o serviço opera dentro de redes regionais (por exemplo, um CAPS III com leitos 24 h pode compor alta complexidade em saúde mental).  
+* Para análise de rede assistencial em sistemas de informação (SIH/SIA), utilize também o **código de serviço + classificação** do CNES, pois é nele que o nível de complexidade do **procedimento** é efetivamente registrado.
