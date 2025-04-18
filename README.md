@@ -37,7 +37,7 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 |-----------------------------|---------------|
 | `ID`                        | Número sequencial |
 | `codmun6num`                | Código municipal do IBGE com 6 dígitos em formato Numérico |
-| `municipio-residencia-mae`  | Código municipal do IBGE com 7 dígitos em formato Numérico |
+| `municipio-residencia-mae`  | Município de residência da mãe da criança|
 | `nasc2014`                  | Total de nascidos vivos em 2014 |
 | `nasc2015`                  | Total de nascidos vivos em 2015 |
 | `nasc2016`                  | Total de nascidos vivos em 2016 |
@@ -48,15 +48,15 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `nasc2021`                  | Total de nascidos vivos em 2021 |
 | `nasc2022`                  | Total de nascidos vivos em 2022 |
 | `nasc2023`                  | Total de nascidos vivos em 2023 |
-| `media12a23`                | Média de nascidos vivos de 2014 a 2023 por município |
+| `media14a23`                | Média de nascidos vivos de 2014 a 2023 por município |
 
-## 2. Arquivo: `tabela-apoio-brasil-nascidosanomaliacongenita-5570municipios.csv`
+## 3. Arquivo: `tabela-apoio-brasil-nascidosanomaliacongenita-5570municipios.csv`
 
 | **Campo**                   | **Descrição** |
 |-----------------------------|---------------|
 | `ID`                        | Número sequencial |
 | `codmun6num`                | Código municipal do IBGE com 6 dígitos em formato Numérico |
-| `municipnascaconalia`       | Município de nascimento da criança com anomalia congênita  |
+| `municipnascaconalia`       | Município de residência da mãe da criança com anomalia congênita  |
 | `anomcong2014`                  | Total de nascidos vivos com anomalia em 2014 |
 | `anomcong2015`                  | Total de nascidos vivos com anomalia em 2015 |
 | `anomcong2016`                  | Total de nascidos vivos com anomalia em 2016 |
@@ -67,3 +67,22 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `anomcong2021`                  | Total de nascidos vivos com anomalia em 2021 |
 | `anomcong2022`                  | Total de nascidos vivos com anomalia em 2022 |
 | `anomcong2023`                  | Total de nascidos vivos com anomalia em 2023 |
+
+## 4. Arquivo: `tabela-apoio-brasil-mortalidadegeral-5570municipios.csv`
+
+| **Campo**                   | **Descrição** |
+|-----------------------------|---------------|
+| `ID`                        | Número sequencial |
+| `codmun6num`                | Código municipal do IBGE com 6 dígitos em formato Numérico |
+| `municipioobito`            | Município de residência do óbito |
+| `obito2014`                  | Total de nascidos vivos em 2014 |
+| `obito2015`                  | Total de nascidos vivos em 2015 |
+| `obito2016`                  | Total de nascidos vivos em 2016 |
+| `obito2017`                  | Total de nascidos vivos em 2017 |
+| `obito2018`                  | Total de nascidos vivos em 2018 |
+| `obito2019`                  | Total de nascidos vivos em 2019 |
+| `obito2020`                  | Total de nascidos vivos em 2020 |
+| `obito2021`                  | Total de nascidos vivos em 2021 |
+| `obito2022`                  | Total de nascidos vivos em 2022 |
+| `obito2023`                  | Total de nascidos vivos em 2023 |
+| `mediaobt14a23`                | Média de óbitos de 2014 a 2023 por município |
