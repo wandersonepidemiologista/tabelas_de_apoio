@@ -75,14 +75,14 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `ID`                        | Número sequencial |
 | `codmun6num`                | Código municipal do IBGE com 6 dígitos em formato Numérico |
 | `municipioobito`            | Município de residência do óbito |
-| `obito2014`                  | Total de nascidos vivos em 2014 |
-| `obito2015`                  | Total de nascidos vivos em 2015 |
-| `obito2016`                  | Total de nascidos vivos em 2016 |
-| `obito2017`                  | Total de nascidos vivos em 2017 |
-| `obito2018`                  | Total de nascidos vivos em 2018 |
-| `obito2019`                  | Total de nascidos vivos em 2019 |
-| `obito2020`                  | Total de nascidos vivos em 2020 |
-| `obito2021`                  | Total de nascidos vivos em 2021 |
-| `obito2022`                  | Total de nascidos vivos em 2022 |
-| `obito2023`                  | Total de nascidos vivos em 2023 |
-| `mediaobt14a23`                | Média de óbitos de 2014 a 2023 por município |
+| `obito2014`                 | Total de óbitos gerais em 2014 |
+| `obito2015`                 | Total de óbitos gerais em 2015 |
+| `obito2016`                 | Total de óbitos gerais em 2016 |
+| `obito2017`                 | Total de óbitos gerais em 2017 |
+| `obito2018`                 | Total de óbitos gerais em 2018 |
+| `obito2019`                 | Total de óbitos gerais em 2019 |
+| `obito2020`                 | Total de óbitos gerais em 2020 |
+| `obito2021`                 | Total de óbitos gerais em 2021 |
+| `obito2022`                 | Total de óbitos gerais em 2022 |
+| `obito2023`                 | Total de óbitos gerais em 2023 |
+| `mediaobt14a23`             | Média de óbitos de 2014 a 2023 por município |
