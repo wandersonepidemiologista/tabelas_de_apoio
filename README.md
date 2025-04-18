@@ -49,3 +49,21 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `nasc2022`                  | Total de nascidos vivos em 2022 |
 | `nasc2023`                  | Total de nascidos vivos em 2023 |
 | `media12a23`                | Média de nascidos vivos de 2014 a 2023 por município |
+
+## 2. Arquivo: `tabela-apoio-brasil-nascidosvivos-5570municipios.csv`
+
+| **Campo**                   | **Descrição** |
+|-----------------------------|---------------|
+| `ID`                        | Número sequencial |
+| `codmun6num`                | Código municipal do IBGE com 6 dígitos em formato Numérico |
+| `municipnascaconalia`       | Município de nascimento da criança com anomalia congênita  |
+| `anomcong2014`                  | Total de nascidos vivos com anomalia em 2014 |
+| `anomcong2015`                  | Total de nascidos vivos com anomalia em 2015 |
+| `anomcong2016`                  | Total de nascidos vivos com anomalia em 2016 |
+| `anomcong2017`                  | Total de nascidos vivos com anomalia em 2017 |
+| `anomcong2018`                  | Total de nascidos vivos com anomalia em 2018 |
+| `anomcong2019`                  | Total de nascidos vivos com anomalia em 2019 |
+| `anomcong2020`                  | Total de nascidos vivos com anomalia em 2020 |
+| `anomcong2021`                  | Total de nascidos vivos com anomalia em 2021 |
+| `anomcong2022`                  | Total de nascidos vivos com anomalia em 2022 |
+| `anomcong2023`                  | Total de nascidos vivos com anomalia em 2023 |
