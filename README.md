@@ -87,7 +87,7 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | `obito2023`                 | Total de óbitos gerais em 2023 |
 | `mediaobt14a23`             | Média de óbitos de 2014 a 2023 por município |
 
-# ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # ----- # ---- # ---- # -----
+---
 
 #### Agrupamento dos tipos CNES por nível de complexidade assistencial  
 
@@ -111,7 +111,8 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | 43 | Farmácia |
 | 83 | Polo de Prevenção de Doenças, Agravos e Promoção da Saúde |
 | 50 | Unidade de Vigilância em Saúde |  
-**Referências:** PNAB 2017 – Port. 2.436/2017【turn2search0】; Tabela CNES【turn1view0】  
+
+**Referências:** PNAB 2017 – Port. 2.436/2017; Tabela CNES  
 
 ---
 
@@ -131,7 +132,8 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | 77 | Serviço de Atenção Domiciliar – Isolado (Home Care) |
 | 78 | Unidade de Atenção em Regime Residencial |
 | 79 | Oficina Ortopédica |  
-**Referências:** PNAES 2023 – Port. 1.604/2023【turn4search0】; Port. 1600/2011 – Rede de Urgências【turn5search3】; Tabela CNES【turn1view0】
+
+**Referências:** PNAES 2023 – Port. 1.604/2023; Port. 1600/2011 – Rede de Urgências; Tabela CNES
 
 ---
 
@@ -147,7 +149,8 @@ Essas tabelas são essenciais para garantir consistência e precisão em projeto
 | 81 | Central de Regulação do Acesso |
 | 82 | Central de Notificação, Captação e Distribuição de Órgãos (CNCDO) |
 | 68 | Central / Secretaria de Gestão em Saúde |  
-**Referências:** Regulamento Técnico de Urgência – Port. 2.048/2002【turn5search0】; Tabela CNES【turn1view0】
+
+**Referências:** Regulamento Técnico de Urgência – Port. 2.048/2002; Tabela CNES
 
 ---
 
